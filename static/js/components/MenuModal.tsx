@@ -212,15 +212,6 @@ function MenuModal({ visible, onCancel }: MenuModalProps) {
             </div>
           </div>
         )}
-        <div
-          className={styles.flexBtn}
-          onClick={() => window.open("https://cbridge-analytics.celer.network/", "_blank")}
-        >
-          <div className={styles.flexBtnContent}>
-            <img src={themeType === "dark" ? analytics : analyticsLight} className={styles.flexBtnIcon} alt="" />
-            Analytics
-          </div>
-        </div>
 
         {/* <div className={styles.flexBtn} onClick={() => window.open("https://cbridge-campaign.netlify.app/")}>
           <div className={styles.flexBtnContent} style={{ padding: "10px 8px" }}>
